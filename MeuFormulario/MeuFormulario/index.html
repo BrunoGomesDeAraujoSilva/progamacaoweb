@@ -1,0 +1,82 @@
+<!DOCTYPE.html>
+<html>
+    <head>
+        <title>Meu Formulario</title>
+        <meta charset="utf-8">
+    </head>
+    
+    <body>
+        <form method="post" action="formulario.php">
+           <table class="tabela">
+            <tr>
+                <td>
+                    <label for="ome">Nome:</label>
+                </td>
+                <td>
+                    <input type="text" name="nome">
+                </td>
+               
+           </tr>
+            <tr>
+                <td>
+                    <label for="endereco">Endereço:</label>
+                </td>
+                <td>
+                    <input type="text" name="endereco">
+                </td>
+            
+            </tr>
+            
+            <tr>
+                <td>
+                    <label for="estado">Estado:</label>
+                </td>
+                <td>
+            <select name="estado">
+                <option value="pb">paraiba</option>
+                <option value="ce">Ceara</option>
+                <option value="pe">Pernambuco</option>
+                <option value="rn">Rio Grande do Norte</option>
+             </select>
+               </td>
+               </tr>
+               
+               <tr>
+                   <td> 
+                       <label for="sexo">Sexo</label>
+                   </td>
+                   <td>
+                       <input type="radio" name="masculino" value="m">Masculino
+                       <input type="radio" name="feminino" value="f">Feminino
+                   </td>
+               </tr>
+               
+               <tr>
+                   <td> 
+                       <label for="disciplina">Disciplina</label>
+                   </td>
+                   <td>
+                       <input type="checkbox" name="matematica" value="ma">Matematica
+                       <input type="checkbox" name="portugues" value="por">Portugues
+                   </td>
+               </tr>
+               
+                <tr>
+                   <td> 
+                       <label for="comentarios">comentarios</label>
+                   </td>
+                   <td>
+                      <textarea>
+                       </textarea>
+                   </td>
+               </tr>
+               
+               
+            
+            </table>
+        </form>
+              
+        
+        
+    </body>
+</html>
